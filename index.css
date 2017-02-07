@@ -1,20 +1,75 @@
-body 
-{ 
-	background-color: #ddd; 
+body {
+  margin: 0;
+  background-color: #ddd;
 }
 
-nav 
-{ 
-	background-color: rgb(51, 51, 51); 
+nav {
+  background-color: #333333;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav li a { 
+  line-height: 50px;
+  text-decoration: none;
+  color: #999;
+  font-size: 21px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0 18px;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav ul {
+  margin: 0;
+  text-align: center;
+
 }
 
 
-.hero-image 
-{ 
-	width: 100%; 
+
+h1 {
+  margin: 0;
+  font-family: 'Roboto';
+  text-align: center;
+  font-weight: bold;
+  padding: 65px;
+  padding-left: 100px;
+
 }
 
-li:first-child 
-{ 
-	color: green; 
+h3 {
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Roboto';
+  margin-bottom: 5px;
+  font-size: 18px;
 }
+
+section {
+  background-color: #ddd;
+}
+
+.row{
+  display: inline-block;
+}
+
+.column {
+  float: left;
+  width: 33.333%;
+}
+
+.food img {
+  width: 100%;
+  padding: 20px;
+}
+
+.column-inner{
+  padding:20px;
+}
+
